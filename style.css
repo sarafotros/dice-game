@@ -4,12 +4,17 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(208, 216, 216);
+  background: linear-gradient(217deg, #f38295, #4d5cfae3);
+}
+header {
+  text-align: center;
+}
+header h2 {
+  padding-bottom: 15%;
 }
 .app {
   width: 100%;
   height: 100vh;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,10 +22,15 @@ body {
 }
 .main {
   border: 2px solid grey;
+  background: linear-gradient(200deg, #4d5bfa8e, #f3829577);
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   width: 50%;
   height: 50%;
   justify-content: space-around;
   align-items: center;
+}
+.btn {
+  padding: 10px 20px;
 }
