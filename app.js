@@ -1,4 +1,8 @@
 const btn = document.querySelector(".btn");
+const btnp1 = document.querySelector(".1pl");
+const btnp2 = document.querySelector(".2pl");
+const btnp2 = document.querySelector(".btn");
+
 const diceImg = document.querySelector("img");
 const status = document.querySelector(".status");
 

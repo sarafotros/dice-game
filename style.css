@@ -5,12 +5,26 @@
 }
 body {
   background: linear-gradient(217deg, #f38295, #4d5cfae3);
+  font-family: "Indie Flower", cursive;
 }
 header {
   text-align: center;
 }
 header h2 {
   padding-bottom: 15%;
+  font-size: 3.2rem;
+}
+p {
+  font-size: 1.2rem;
+}
+h3 {
+  font-size: 1.6rem;
+}
+h4 {
+  font-size: 1.4rem;
+}
+span {
+  font-size: 1.8rem;
 }
 .app {
   width: 100%;
@@ -31,6 +45,10 @@ header h2 {
   justify-content: space-around;
   align-items: center;
 }
-.btn {
+button {
   padding: 10px 20px;
+  font-family: "Indie Flower", cursive;
+  border-bottom: 2px solid grey;
+  background-color: rgb(126, 124, 124);
+  margin: 20px 0;
 }

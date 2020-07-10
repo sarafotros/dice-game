@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Dice-Game</title>
   </head>
@@ -11,15 +15,19 @@
       <header>
         <h2>Dice Game</h2>
         <p>Roll the dice to begin the game</p>
+        <p>Select:</p>
+        <button class="1pl">1 Player</button>
+        <button class="2pl">2 players</button>
       </header>
       <div class="main">
-        <h3>Player 1</h3>
+        <h3></h3>
         <h4 class="status"></h4>
+        <p>Total Score:</p>
         <span class="score"></span>
         <div class="img">
           <img src="assets/images/dice0.png" alt="dice" />
         </div>
-        <button class="btn">ROLL</button>
+        <button class="btn" type="button" disabled>ROLL</button>
       </div>
     </div>
     <script src="app.js"></script>
