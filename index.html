@@ -16,18 +16,18 @@
         <h2>Dice Game</h2>
         <p>Roll the dice to begin the game</p>
         <p>Select:</p>
-        <button class="1pl">1 Player</button>
-        <button class="2pl">2 players</button>
+        <button id="onePlayerBtn">1 Player</button>
+        <button id="twoPlayerBtn">2 players</button>
       </header>
       <div class="main">
-        <h3></h3>
+        <h3 id="sigOrMulty"></h3>
         <h4 class="status"></h4>
         <p>Total Score:</p>
         <span class="score"></span>
         <div class="img">
           <img src="assets/images/dice0.png" alt="dice" />
         </div>
-        <button class="btn" type="button" disabled>ROLL</button>
+        <button disabled="true" id="rollBtn">ROLL</button>
       </div>
     </div>
     <script src="app.js"></script>

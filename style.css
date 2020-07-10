@@ -19,6 +19,7 @@ p {
 }
 h3 {
   font-size: 1.6rem;
+  padding-top: 30px;
 }
 h4 {
   font-size: 1.4rem;
@@ -41,7 +42,7 @@ span {
   display: flex;
   flex-direction: column;
   width: 50%;
-  height: 50%;
+  height: 60%;
   justify-content: space-around;
   align-items: center;
 }
@@ -49,6 +50,6 @@ button {
   padding: 10px 20px;
   font-family: "Indie Flower", cursive;
   border-bottom: 2px solid grey;
-  background-color: rgb(126, 124, 124);
+  background-color: rgb(141, 141, 141);
   margin: 20px 0;
 }
