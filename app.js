@@ -2,6 +2,7 @@ const rollBtn = document.getElementById("rollBtn");
 const onePlayerBtn = document.getElementById("onePlayerBtn");
 const twoPlayerBtn = document.getElementById("twoPlayerBtn");
 const snglOrMulty = document.getElementById("sigOrMulty");
+const showTurns = document.getElementById("turns");
 const diceImg = document.querySelector("img");
 const status = document.querySelector(".status");
 
@@ -44,4 +45,8 @@ rollBtn.addEventListener("click", () => {
   rollDice();
 });
 
-twoPlayerBtn.addEventListener("click", () => {});
+twoPlayerBtn.addEventListener("click", () => {
+  snglOrMulty.textContent = "Two Players";
+  snglOrMulty.textContent = "Player 1 starts";
+  revealBtn(rollBtn);
+});
